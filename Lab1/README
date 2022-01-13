@@ -1,0 +1,37 @@
+1. using jupyter notebook of google colab
+2. using comments
+3. using numerical operations + - * / // % **
+4. using numpy, importing
+5. numpy function examples-1:
+    sin, cos, exp, log with numbers
+6. data types in numpy: int, float [check for unsigned int and double], bool, str
+7. variables and using above functions, typecasting
+8. input and output: input and print
+
+    aa = input()
+    print (aa)
+9. copy variables in python
+10. operations with variables
+11. containers: mutable, not mutable... list, tuple, array
+   mutable: can be changed
+   list: mutable, ordered, heterogenious
+   tuple: nonmutable, ordered, heterogenious
+   array: mutable, ordered, homogenious
+
+12. basic list operations: indexing, append, extend, insert, remove,
+   index, len, multiply
+13. more list operations as homework: concatenate, count, sort
+14. basic array operations: add, multiply, 1D, 2D, index, slicing
+15. basic oeprations with string
+16. conditional and for loop
+17. reading from a file, writing to a file.
+18. look at the problem 1-4.
+29. look at the problem 5. [find squared numbers in between 1 and 10,00,000]
+
+Home work problem:
+
+1. Find all the pairs of numbers that add to 1000.
+2. Find all the triplets of numbers that add to 1000.
+3. Find all the prime numbers to 1000.
+
+

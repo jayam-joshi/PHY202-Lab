@@ -1,0 +1,14 @@
+1. Find all the pairs of numbers that add to 1000.
+2. Find all the triplets of numbers that add to 1000.
+3. Find all the prime numbers to 1000.
+4. The file L1CH4.dat contains information on maximum and minimum temperature
+   measured in a laboratory over ten days at three different times in a day. 
+   (a) Find the highest and lowest temperature on first and second day and
+       print it.
+   (b) Find the day and time in which the highest and lowest temperature was
+       recorded and print it.
+   (c) Find the mean and standard deviation of Maximum and Minimum temperature
+       in 10 days and print it.
+   (d) Find the day and time in which Maximum temperature was greater than the
+       mean temperature. 
+   (e) Find the highest and lowest temperatures recorded in a given day.

@@ -1,0 +1,51 @@
+
+1. Define a list with elements list1=[1,2,3,4,5]. Try following operations.
+    list1*3, list1*3.14, list1**2, list*pi
+2. Define another list but elements are strings list2=['a','b','c'].
+   Try following
+   list1+list2, list1*list2 
+3. Define an array with following entries aa=[1,2,3,4,5] and try the
+   operations 1-2. 
+What do you conclude from these?
+
+4. A list of mid-semester and end semester marks as obtained by the
+   students of the PHY202 course in the year 1900 is given in the file
+   L1CD11.txt. The highest mark in the mid-semester examination was 50
+   and that in the end semester was 100. It was decided that 40% marks
+   from the mid-semester and 60% from the end semester will be used to
+   grade the students. The grades are to be given from 1 to 10 having a
+   linear relation with their marks such that a person with greater than
+   80% gets a grade of 9 etc. The pass grade was 7.
+
+   (a) Find the grades of the students.
+   (b) Print the roll number, name and grade of the students.
+
+   The students with roll numbers 19005 and 19002 did not have 75% of
+   attendance and hence their grades were 0.
+
+   (c) Print the roll number, name and grade of the students with the modified grades.
+   (d) Print the roll number, name and grade of the students who failed.
+-------------------------------------------------------------------------
+PSUDO CODE:
+1. Import the numpy library.
+2. Read data from the text file and put  into arrays of students, rollno, 
+   midsem and endsemmarks.
+3. Typecast required data to floating point.
+4. Calculate the grade:
+   	    Marks = (40.*(MidSem/50.) + 60.*(EndSem/100.))/10.
+	    Grade = convert it to 1 to 10
+5. Print the grades.
+6. Change the Grades to the students with less attendances.
+7. Find the index of the array that points to students with grades less than 7.
+8. Print the grades etc.
+-------------------------------------------------------------------------
+
+5. Find all the square numbers between 1 and 1000.
+-------------------------------------------------------------------------
+PSUDO CODE:
+0. create an empty list
+1. run loop between 1 and 100
+2. calculate the square of the number
+3. convert it to nearest integer and find the difference between those
+4. if the difference is zero, append the list
+5. once outside the loop print the list

@@ -1,0 +1,3 @@
+1. Given input of n, find factorial n.
+2. Given inputs of n and p find n_C_p.
+3. Find all the numbers those are divisible by a number that you give in input.
