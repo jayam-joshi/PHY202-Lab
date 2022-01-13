@@ -1,0 +1,52 @@
+Class Discussion:
+-----------------
+
+1. On the night of new year's eve, a person got drunk and trying to reach home.
+He is in a road (consider one dimension) and takes random steps (either +1.0
+step or -1.0 step) in every 15 sec. Each step corresponds to one meter of
+distance. His home is 100 meters away.
+(a) If he takes a total of N steps how much distance he travel on average?
+(b) How the average distance as above depends on N?
+(c) Plot a histogram of the displacements over N_R realizations.
+------------------------------------------------------------------------------
+[DO THE FOLLOWINGS AS HOME WORK]
+(d) Calculate how long will he take to reach there, let us call this time tt_fp.
+(e) Consider many realizations of the above random walk and calculate the mean
+    and standard deviation of tt_fp. You can use np.mean and np.std for this.
+(f) Find how the above mean and standard deviation changes as a function of
+    the distance to drunker's home.
+
+
+Class Assignment:
+-----------------
+2. (a) Write a function by implementing a sorting algorithm that can sort the
+       numbers in an array in order of smaller to larger. The function must take
+       the random array as input and return the sorted array as output.
+   (b) In your python script define an array having 24 random integers between
+       0 to 100. Use the above function to sort the array. Find the time to run
+       the code.
+   (c) Repeat the above exercise in (b) for 1024 times and find the mean and
+       standard deviation of the time taken to run the code in those.
+
+
+3. Displacement of a body at a time t is given as
+
+   x(t) = exp(-t) * [ A cos (\sqrt(12) t/2) + B sin (\sqrt(12) t/2) ].
+
+   (a) Find the time required for the body to come to rest when the initial
+       conditions are x(0) = 1 and v_x(0) = 5.
+   (b) Plot the x(t) and v_x(t) as a function of t in the same plot. Label the
+       x, y axes and the two curves properly.
+
+
+Home Assignment:
+-----------------
+4. Mandelbrot set is defined as the set of all the values of a complex number c
+for which the iteration: z_n+1 = z_n^2 + c remains bounded.
+(a) Take a grid of 256 x 256 with each grid point representing the complex
+    number c. The grid may spam from -2 to +2 in real and imaginary axes.
+(b) Find how many of these grid points belong to the Mandelbrot set.
+(c) Plot all the grid points using (matplotlib.pyplot.imshow) with points
+    those belongs to the set as black and rest as white.
+(b) Repeat the exercise with a grid of size 4096 x 4096.
+
